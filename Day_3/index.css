@@ -1,0 +1,185 @@
+body{
+    margin:0;
+    padding:0;
+    font-size: 12px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid lightgray;
+    padding:10px 60px;
+}
+
+.middle-card{
+    display:flex;
+    align-items: center;
+    border:1px solid lightgray;
+    padding:5px 10px;
+    border-radius:30px;
+    font-size:12px;
+}
+
+.last-card{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    
+}
+
+.login-card{
+    display:flex;
+    align-items: center;
+    border:1px solid lightgray;
+    padding: 3px 0px 5px 9px;
+    margin-top: 3px;
+    border-radius: 20px;
+}
+
+.air-bnb-logo{
+    height:40px;
+    color: #ff385c;
+}
+
+.user{
+    width:50px;
+    color:gray;
+    position: relative;
+    right:-16px;
+}
+
+.search-icon{
+    border-radius: 50%;
+    background-color: #ff385c;
+    color:#fff;
+    padding:10px;
+}
+
+.search-icon svg{
+    height:12px !important;
+    width:12px !important;
+}
+
+.weeks{
+    border-left:1px solid lightgray;;
+    border-right:1px solid lightgray
+}
+.middle-gap{
+    padding:0px 16px;
+}
+.res-container{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    padding:10px 60px;
+}
+.res-card{
+    width:258px
+}
+
+.res-img{
+    width:100%;
+    height:230px;
+    border-radius: 12px;
+}
+
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-container{
+    position: relative;
+}
+.heart-icon{
+    position: absolute;
+    top: 13px;
+    right: 11px;
+}
+
+.stars{
+    height:12px;
+    width:12px;
+}
+
+.services{
+    display: flex;
+    gap:20px;
+    gap: 43px;
+    padding: 25px 60px 10px 60px;
+    /* padding:2px 60px; */
+    align-items: center;
+}
+.service-card{
+    text-align: center;
+}
+
+.service-card img{
+    width:25px;
+    /* height:7px; */
+}
+.arrow{
+    /* height:px; */
+    width:12px;
+}
+
+.price-container{
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    border:1px solid gray;
+    border-radius: 12px;
+    padding:20px 15px;
+    width:450px;
+    margin:1px auto;
+}
+.price-display{
+    border-right:1px solid gray;
+    padding-right:10px;
+    margin-right: 10px;
+}
+
+
+
+.arrow-cont{
+  border:1px solid gray;
+  border-radius: 50%;
+  padding:3px;
+}
+
+.filter-container{
+   border:1px solid gray;
+   border-radius: 12px;
+   padding:10px;
+   margin-left: -20px;
+}
+
+.font-dark{
+    font-weight:700;
+}
+
+.location{
+    padding-top:5px;
+}
+
+.filter{
+    width:10px;
+    height:10px;
+}
+
+.service-desc{
+    font-size:10px;
+    font-weight: 700;
+    color:grey
+}
+
+.font-light{
+    color:grey;
+    line-height: 18px;
+}
+
+.stay-charge{
+    margin-top:4px;
+}
