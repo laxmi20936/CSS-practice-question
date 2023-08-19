@@ -6,6 +6,13 @@ body{
 }
 
 .header{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 5;
+    width:100%;
+    background-color: #fff;;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,6 +77,7 @@ body{
     padding:0px 16px;
 }
 .res-container{
+    margin-top:7px;
     display: flex;
     gap:20px;
     flex-wrap: wrap;
@@ -105,6 +113,13 @@ body{
 }
 
 .services{
+    /* position: fixed;
+    top: 9px;
+    left: 0px;
+    z-index: 5;
+    background-color: #fff; */
+    background-color: #fff;
+    margin-top: 55px;
     display: flex;
     gap:20px;
     gap: 43px;
@@ -182,4 +197,8 @@ body{
 
 .stay-charge{
     margin-top:4px;
+}
+.services,.res-container,.price-container{
+    position: relative;
+    z-index:2;
 }
